@@ -1,0 +1,88 @@
+---start Decrypt---
+        title:  Tarefa 1
+
+     original:  140b41b22a29beb4061bda66b6747e14
+          key:  28a226d160dad07883d04e008a7897ee2e4b7465d5290d0c0e6c6822236e1daafb94ffe0c5da05d9476be028ad7c1d81
+         mode:  AES/CBC/PKCS5PADDING
+           iv:  4ca00ff4c898d61e1edbf1800618fb28
+
+    encrypted:  28A226D160DAD07883D04E008A7897EE2E4B7465D5290D0C0E6C6822236E1DAAFB94FFE0C5DA05D9476BE028AD7C1D81
+    decrypted:  Basic CBC mode encryption needs padding.
+
+     validate:  true
+----end----
+
+
+---start Decrypt---
+        title:  Tarefa 2
+
+     original:  140b41b22a29beb4061bda66b6747e14
+          key:  b4832d0f26e1ab7da33249de7d4afc48e713ac646ace36e872ad5fb8a512428a6e21364b0c374df45503473c5242a253
+         mode:  AES/CBC/PKCS5PADDING
+           iv:  5b68629feb8606f9a6667670b75b38a5
+
+    encrypted:  B4832D0F26E1AB7DA33249DE7D4AFC48E713AC646ACE36E872AD5FB8A512428A6E21364B0C374DF45503473C5242A253
+    decrypted:  Our implementation uses rand. IV
+
+     validate:  true
+----end----
+
+
+---start Decrypt---
+        title:  Tarefa 3
+
+     original:  36f18357be4dbd77f050515c73fcf9f2
+          key:  0ec7702330098ce7f7520d1cbbb20fc388d1b0adb5054dbd7370849dbf0b88d393f252e764f1f5f7ad97ef79d59ce29f5f51eeca32eabedd9afa9329
+         mode:  AES/CTR/NoPadding
+           iv:  69dda8455c7dd4254bf353b773304eec
+
+    encrypted:  0EC7702330098CE7F7520D1CBBB20FC388D1B0ADB5054DBD7370849DBF0B88D393F252E764F1F5F7AD97EF79D59CE29F5F51EECA32EABEDD9AFA9329
+    decrypted:  CTR mode lets you build a stream cipher from a block cipher.
+
+     validate:  true
+----end----
+
+
+---start Decrypt---
+        title:  Tarefa 4
+
+     original:  36f18357be4dbd77f050515c73fcf9f2
+          key:  e46218c0a53cbeca695ae45faa8952aa0e311bde9d4e01726d3184c34451
+         mode:  AES/CTR/NoPadding
+           iv:  770b80259ec33beb2561358a9f2dc617
+
+    encrypted:  E46218C0A53CBECA695AE45FAA8952AA0E311BDE9D4E01726D3184C34451
+    decrypted:  Always avoid the two time pad!
+
+     validate:  true
+----end----
+
+
+---start Encrypt---
+        title:  Tarefa 5
+
+     original:  36f18357be4dbd77f050515c73fcf9f2
+          key:  5468697320697320612073656e74656e636520746f20626520656e63727970746564207573696e672041455320616e6420435452206d6f64652e
+         mode:  AES/CTR/NoPadding
+           iv:  4ca00ff4c898d61e1edbf1800618fb28
+
+    encrypted:  266D7A7E13E6A4C5059DA6878E44D6C1D9FFE6260E6F8B8BBF3B32E35A9BA48B6609F1490962E4C41A87FD163945377A6B264DA16735A99E4DCE
+    decrypted:  This is a sentence to be encrypted using AES and CTR mode.
+
+     validate:  true
+----end----
+
+
+---start Encrypt---
+        title:  Tarefa 6
+
+     original:  140b41b22a29beb4061bda66b6747e14
+          key:  4e657874205468757273646179206f6e65206f66207468652062657374207465616d7320696e2074686520776f726c642077696c6c2066616365206120626967206368616c6c656e676520696e20746865204c696265727461646f72657320646120416d6572696361204368616d70696f6e736869702e
+         mode:  AES/CBC/PKCS5PADDING
+           iv:  4ca00ff4c898d61e1edbf1800618fb28
+
+    encrypted:  1C8C4995B0FF0A2EC2B111E08824947BAB0AC7B209D8026CBE7FC572A2FA0390DB08EC936DF8144AEB8C2018F5A15B1A36784356228B875924B689AA8E42962889519C1C99C5BC6EB0E155DECE937ABC4918C694CE2DB4A2CA8B021DEFC4D329D59A4CA3FADAA6AEE8C6DEDDFE45681F725DE4F460CAEFFBDDA8A4E76A4D71D7
+    decrypted:  Next Thursday one of the best teams in the world will face a big challenge in the Libertadores da America Championship.
+
+     validate:  true
+----end----
